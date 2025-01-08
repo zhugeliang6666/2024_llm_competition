@@ -1,0 +1,52 @@
+# Base Images
+## 从天池基础镜像构建(from的base img 根据自己的需要更换，建议使用天池open list镜像链接：https://tianchi.aliyun.com/forum/postDetail?postId=67720)
+FROM registry.cn-shanghai.aliyuncs.com/tcc_public/python:3.10
+##安装依赖包
+RUN pip install torch==2.4.0 torchvision==0.19.0 torchaudio --index-url https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install transformers==4.44.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install peft -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install pandas==2.2.2 -i https://pypi.tuna.tsinghua.edu.cn/simple 
+RUN pip install tqdm -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install vllm==0.5.5 -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUN pip install auto_gptq -i https://pypi.tuna.tsinghua.edu.cn/simple
+RUn pip install openai loguru httpx -i https://pypi.tuna.tsinghua.edu.cn/simple
+#拷贝模型文件
+# COPY models/qwen/Qwen1.5-32B-Chat-GPTQ-Int4 /lib/model/
+COPY models/qwen/Qwen2.5-32B-Instruct-GPTQ-Int4 /lib/model/
+#拷贝lora权重
+
+COPY lora/qwen2_shuffle/24/checkpoint-2482/ /lib/lora24/
+COPY lora/qwen2_shuffle/25/checkpoint-2482/ /lib/lora25/
+COPY lora/qwen2_shuffle/26/checkpoint-2482/ /lib/lora26/
+COPY lora/qwen2_shuffle/27/checkpoint-2482/ /lib/lora27/
+COPY lora/qwen2_shuffle/28/checkpoint-2482/ /lib/lora28/
+
+COPY lora/qwen2_shuffle_origin/1/checkpoint-2532/ /lib/lora1/
+COPY lora/qwen2_shuffle_origin/2/checkpoint-2532/ /lib/lora2/
+COPY lora/qwen2_shuffle_origin/3/checkpoint-2532/ /lib/lora3/
+COPY lora/qwen2_shuffle_origin/4/checkpoint-2532/ /lib/lora4/
+
+COPY lora/qwen2_shuffle_origin/11/checkpoint-2532/ /lib/lora11/
+COPY lora/qwen2_shuffle_origin/12/checkpoint-2532/ /lib/lora12/
+COPY lora/qwen2_shuffle_origin/13/checkpoint-2532/ /lib/lora13/
+COPY lora/qwen2_shuffle_origin/14/checkpoint-2532/ /lib/lora14/
+
+COPY lora/qwen2_shuffle_origin/81/checkpoint-2532/ /lib/lora81/
+COPY lora/qwen2_shuffle_origin/82/checkpoint-2532/ /lib/lora82/
+
+COPY lora/qwen2_shuffle_origin/91/checkpoint-2532/ /lib/lora91/
+COPY lora/qwen2_shuffle_origin/92/checkpoint-2532/ /lib/lora92/
+
+COPY lora/qwen2_shuffle_origin/83/checkpoint-2532/ /lib/lora83/
+COPY lora/qwen2_shuffle_origin/93/checkpoint-2532/ /lib/lora93/
+
+COPY lora/qwen2_shuffle_origin/84/checkpoint-2532/ /lib/lora84/
+COPY lora/qwen2_shuffle_origin/94/checkpoint-2532/ /lib/lora94/
+
+# 把当前文件夹里的文件构建到镜像的根目录下,并设置为默认工作目录
+# COPY app_new /app
+
+COPY . /app
+WORKDIR /app
+# 镜像启动后统一执行 sh run.sh
+CMD ["sh", "run.sh"]

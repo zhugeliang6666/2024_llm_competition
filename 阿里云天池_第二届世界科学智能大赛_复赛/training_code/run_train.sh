@@ -1,0 +1,9 @@
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 1 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 2 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 3 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 4 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 5 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 6 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 7 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 8 > ./run_train.log
+accelerate launch --config_file ./config/default_config.yaml 2_train_final_accelerate_v1.py 9 > ./run_train.log
