@@ -5,36 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="651c7153-1757-4c26-b276-0150eeea4e19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/ds_stage0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/finetune.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/finetune_reranker_model.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/finetune_reranker_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/fineturne_minincpm_embedding/train_embedding_model.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/fineturne_minincpm_embedding/train_embedding_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/p_data/p_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/p_data/p_data_rules.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/p_data/p_data_rules.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/avg_reranker_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/new_reranker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/rag_reranker.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/test_rag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/train_qwen2_5_7B/train_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/train_qwen2_5_7B/train_newdata.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/start_server.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/test_vllm.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/vllm_api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/vote.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/rules1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/rules2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/submit_example.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/test.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/test1.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/复赛新增训练参考集.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/run.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,11 +33,12 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/wuqing/myLib/code_lib/2024竞赛/2024_llm_competition/2024全国的数据与计算智能挑战赛/data"
+    "last_opened_file_path": "/Users/wuqing/myLib/code_lib/2024竞赛/2024_llm_competition/kaggel_eedi-mining-misconceptions"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/kaggel_eedi-mining-misconceptions" />
       <recent name="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">

@@ -11,6 +11,8 @@ nohup python -m vllm.entrypoints.openai.api_server \
     --max-model-len=4096 \
     --enable-lora \
     --enforce-eager \
+    --enable-prefix-caching \
+    --enable-chunked-prefill \
     --lora-modules person=./xinghuo_lora/person/checkpoint-48 en=./xinghuo_lora/en/checkpoint-100 sentiment=./xinghuo_lora/sentiment/checkpoint-100 > ./start_server.log 2>&1 &
 
 python ./test.py
