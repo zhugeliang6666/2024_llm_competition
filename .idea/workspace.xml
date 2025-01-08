@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="651c7153-1757-4c26-b276-0150eeea4e19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/ds_stage0.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/finetune.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/finetune_reranker_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/finetune_bge_reranker/finetune_reranker_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/fineturne_minincpm_embedding/train_embedding_model.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/fineturne_minincpm_embedding/train_embedding_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/p_data/p_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/p_data/p_data_rules.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/p_data/p_data_rules.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/avg_reranker_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/new_reranker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/rag_reranker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/rag/test_rag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/run.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/train_qwen2_5_7B/train_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/train_qwen2_5_7B/train_newdata.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/start_server.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/test_vllm.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/vllm_api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/code/vllm_pred/vote.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/dev.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/rules1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/rules2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/submit_example.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/test.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/test1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data/raw_data/复赛新增训练参考集.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/run.sh" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2rLXWL3TmlM8wgXXKxmTyNnguof" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/wuqing/myLib/code_lib/2024竞赛/2024_llm_competition/2024全国的数据与计算智能挑战赛/data"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛" />
+      <recent name="$PROJECT_DIR$/kaggel_eedi_mining_misconceptions" />
+      <recent name="$PROJECT_DIR$/2024全国的数据与计算智能挑战赛/data" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="2024_llm_competition" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="2024_llm_competition" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Docutils task">
+      <module name="2024_llm_competition" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docs" factoryName="Sphinx task">
+      <module name="2024_llm_competition" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="docutils_input_file" value="" />
+      <option name="docutils_output_file" value="" />
+      <option name="docutils_params" value="" />
+      <option name="docutils_task" value="" />
+      <option name="docutils_open_in_browser" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-5a2391486177-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.13763.11" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="651c7153-1757-4c26-b276-0150eeea4e19" name="Changes" comment="" />
+      <created>1736339359948</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736339359948</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
