@@ -25,7 +25,7 @@
 - **名次**：第4名/共376支队伍
 - **关键词**：RAG，逻辑推理，embedding，大模型微调
 
-## 2024年5月
+## 2024年12月
 ### Kaggle_Eedi - Mining Misconceptions in Mathematics
 - **时间**：2024年5月
 - **名称**：Kaggle_Eedi - Mining Misconceptions in Mathematics
