@@ -3,24 +3,27 @@
 
 ---
 ### 2024年10月
-### [阿里云天池_第二届世界科学智能大赛](阿里云天池_第二届世界科学智能大赛_复赛/README.md)
+### 阿里云天池_第二届世界科学智能大赛
 - **官网**：[阿里云天池](http://competition.sais.com.cn/competitionDetail/532231/format)
 - **名次**：8/2815
 - **问题**：逻辑推理，闭世界，
+- **方案**：[阿里云天池_第二届世界科学智能大赛](阿里云天池_第二届世界科学智能大赛_复赛/README.md)
 - **方案**：qwen,lora,vllm,quantization
 
-### [科大讯飞_星火_大模型多任务建模挑战赛](科大讯飞_星火_大模型多任务建模挑战赛/README.md)
+### 科大讯飞_星火_大模型多任务建模挑战赛
 - **官网**：[科大讯飞](https://challenge.xfyun.cn/topic/info?type=multi-task-modeling-challenge&ch=dw_dmx)
 - **名次**：3/100
 - **问题**：信息提取,多任务
+- **方案**：[科大讯飞_星火_大模型多任务建模挑战赛](科大讯飞_星火_大模型多任务建模挑战赛/README.md)
 - **方案**：qwen,lora,vllm,quantization
 
 ---
 ### 2024年11月
-### [国家实验室_全国的数据与计算智能挑战赛](国家实验室_全国的数据与计算智能挑战赛/README.md)
+### 国家实验室_全国的数据与计算智能挑战赛
 - **官网**：[DataFountain](https://www.datafountain.cn/competitions/1021/ranking?isRedance=0&sch=2378)
 - **名次**：4/376
 - **问题**：RAG,逻辑推理
+- **方案**：[国家实验室_全国的数据与计算智能挑战赛](国家实验室_全国的数据与计算智能挑战赛/README.md)
 - **RAG方案**：
   - 训练：首先训练MiniCPM-Embedding，再训练bge-reranker-v2-minicpm-layerwise，
   - 检索：MiniCPM-Embedding对测试集进行tok30的相似度，
@@ -32,10 +35,11 @@
 
 ---
 ### 2024年12月
-### [Kaggle_Eedi - Mining Misconceptions in Mathematics](kaggel_eedi-mining-misconceptions)
+### Kaggle_Eedi - Mining Misconceptions in Mathematics
 - **官网**：[Kaggle](https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/overview)
 - **名次**：铜牌,134/1446
 - **问题**：RAG,逻辑推理
+- **方案**：[Kaggle_Eedi - Mining Misconceptions in Mathematics](kaggel_eedi-mining-misconceptions)
 - **RAG方案**：
   - 向量1：个人微调的qwen2.5-14b，计算向量
   - 向量2：开源(微调后)的qwen2.5-14b，计算向量
