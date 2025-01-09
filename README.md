@@ -1,7 +1,7 @@
 # 2024_llm_competition
 2024年参加的一些比赛汇总
 
-
+---
 ### 2024年10月
 ### 阿里云天池_第二届世界科学智能大赛
 - **官网**：[阿里云天池](http://competition.sais.com.cn/competitionDetail/532231/format)
@@ -15,6 +15,7 @@
 - **问题**：信息提取,多任务
 - **方案**：qwen,lora,vllm,quantization
 
+---
 ### 2024年11月
 ### 国家实验室_全国的数据与计算智能挑战赛
 - **官网**：[DataFountain](https://www.datafountain.cn/competitions/1021/ranking?isRedance=0&sch=2378)
@@ -29,6 +30,7 @@
 - **逻辑推理**：
   - 模型权重投票，预测过程中我们会加入hit3作为相关上下文，让模型能够参考规则来进行回答，提高模型的回答准确率，模型推理11次降低随机性的问题，然后还使用了vllm框架作为推理框架，加快模型推理的速度
 
+---
 ### 2024年12月
 ### Kaggle_Eedi - Mining Misconceptions in Mathematics
 - **官网**：[Kaggle](https://www.kaggle.com/competitions/eedi-mining-misconceptions-in-mathematics/overview)
